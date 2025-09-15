@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Single Page Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: white;
+      padding: 2rem 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    section {
+      padding: 2rem 1rem;
+    }
+    h2 {
+      margin-bottom: 1.5rem;
+      color: #222;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery figure {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery figure:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    figcaption {
+      padding: 0.5rem;
+      background: #f0f0f0;
+      font-weight: bold;
+      color: #444;
+    }
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #222;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Single Page Website</h1>
+    <p>A showcase of my milestones and achievements.</p>
+  </header>
+  <section id="milestones">
+    <h2>My Milestones</h2>
+    <div class="gallery">
+      <figure>
+        <img src="001.jpg" alt="Milestone 1">
+        <figcaption>Milestone 1</figcaption>
+      </figure>
+      <figure>
+        <img src="002.jpg" alt="Milestone 2">
+        <figcaption>Milestone 2</figcaption>
+      </figure>
+      <figure>
+        <img src="003.jpg" alt="Milestone 3">
+        <figcaption>Milestone 3</figcaption>
+      </figure>
+      <figure>
+        <img src="004.jpg" alt="Milestone 4">
+        <figcaption>Milestone 4</figcaption>
+      </figure>
+      <figure>
+        <img src="005.jpg" alt="Milestone 5">
+        <figcaption>Milestone 5</figcaption>
+      </figure>
+      <figure>
+        <img src="006.jpg" alt="Milestone 6">
+        <figcaption>Milestone 6</figcaption>
+      </figure>
+      <figure>
+        <img src="007.jpg" alt="Milestone 7">
+        <figcaption>Milestone 7</figcaption>
+      </figure>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Dorado,Panopio,Omabay. All rights reserved.</p>
+  </footer>
+  <script>
+    console.log("Welcome to our history of computer Website! 🚀");
+  </script>
+</body>
+</html>
